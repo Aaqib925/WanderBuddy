@@ -1,0 +1,120 @@
+.mc__title {
+  max-width: 500px;
+  text-align: left;
+  color: #c683ff;
+  margin: 100px auto 5px;
+}
+.mc__field-container {
+  display: flex;
+  justify-content: space-between;
+  height: 49px;
+  align-items: center;
+}
+.mc__field-container > p {
+  cursor: pointer;
+  margin: auto;
+  text-align: center;
+}
+.sending {
+  color: green;
+}
+.success-message {
+  color: green;
+}
+.error-message {
+  color: red;
+}
+.submitBtn {
+  margin-left: 5px;
+}
+.initialButton {
+  padding: 8px 16px;
+  color: #c683ff;
+}
+
+.input-button-main {
+  border: none;
+  outline: none;
+  padding: 14px;
+  cursor: pointer;
+  background-color: transparent;
+  color: #230041;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: all 0.35s;
+}
+
+.input-button-main:disabled:hover {
+  cursor: not-allowed;
+}
+
+.form-container {
+  width: 500px;
+  position: relative;
+}
+
+.mc__form-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.errorMessage {
+  position: absolute;
+  bottom: -23px;
+  left: 32px;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto 26px;
+  box-shadow: 0px 0px 12px rgba(198, 131, 255, 0.4);
+  border-radius: 100px;
+  border: 2px solid #c683ff;
+  padding: 0px 10px;
+}
+
+.formContainer ::placeholder {
+  color: #c683ff;
+  opacity: 1; /* Firefox */
+}
+
+.formContainer :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #c683ff;
+}
+
+.formContainer ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #c683ff;
+}
+
+.errorMessage {
+  color: red;
+  position: absolute;
+  bottom: -23px;
+  left: 32px;
+}
+.errorMessage2 {
+  color: red;
+  position: absolute;
+  bottom: -33px;
+  left: 32px;
+}
+
+.successMessage {
+  color: white;
+  position: absolute;
+  bottom: -33px;
+  left: 32px;
+}
+
+@media (max-width: 500px) {
+  .mc__field-container {
+    font-size: 12px;
+  }
+  .form-container {
+    width: 90%;
+  }
+}
